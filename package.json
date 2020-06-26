@@ -1,8 +1,8 @@
 {
   "name": "@getmageio/react-native-mage",
   "title": "React Native Mage",
-  "version": "0.0.1",
-  "description": "TODO",
+  "version": "0.0.2",
+  "description": "getmage.io provides smart pricing for your in-app purchases. Distributing products globally should not be a one price fits all strategy. Get started with Mage to scale your products worldwide!",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
@@ -12,11 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-mage.git",
-    "baseUrl": "https://github.com/github_account/react-native-mage"
+    "url": "git+https://github.com/getmageio/mage-ios-sdk.git",
+    "baseUrl": "https://github.com/getmageio/mage-ios-sdk"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "pricing",
+    "in app purchases"
   ],
   "author": {
     "name": "Patrick Bläsing",
