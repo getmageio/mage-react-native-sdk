@@ -11,16 +11,14 @@ Please note that our SDK currently just works on iOS 11 and up. Android is not y
 
 `$ npm install @getmageio/react-native-mage --save`
 
-### Mostly automatic installation
-
-`$ react-native link @getmageio/react-native-mage`
+On iOS run `$ cd ios && pod install && cd ..` to install the native dependencies
 
 ## Usage
 
 ### 1) Import the React Native Mage SDK
 
 ```javascript
-import Mage from '@getmageio/react-native-mage'
+import {Mage} from '@getmageio/react-native-mage'
 ```
 
 ### 2) Set the API Key 
