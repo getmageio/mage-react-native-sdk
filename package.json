@@ -1,7 +1,7 @@
 {
   "name": "@getmageio/react-native-mage",
   "title": "React Native Mage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "getmage.io provides smart pricing for your in-app purchases. Distributing products globally should not be a one price fits all strategy. Get started with Mage to scale your products worldwide!",
   "main": "index.js",
   "publishConfig": {
@@ -12,8 +12,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/getmageio/mage-ios-sdk.git",
-    "baseUrl": "https://github.com/getmageio/mage-ios-sdk"
+    "url": "git+https://github.com/getmageio/mage-react-native-sdk.git",
+    "baseUrl": "https://github.com/getmageio/mage-react-native-sdk"
   },
   "keywords": [
     "react-native",
