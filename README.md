@@ -59,3 +59,15 @@ Mage.getProductNameFromId("com.myapp.someIapID", (err, productName) => {
     // work with productName 
   }
 })
+```
+
+### 5) Report purchases (Android only)
+
+On iOS there is no need to report a purchase since that is handled automatically. However auto-purchase tracking is not yet implemented in our Android Java SDK.
+Whenever a user makes a purchase you need to report it.
+
+```javascript
+if (Platform.OS === 'android'){
+  Mage.userPurchased("com.myapp.someIapID")
+}
+```
