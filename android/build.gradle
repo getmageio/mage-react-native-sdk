@@ -73,6 +73,8 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
+    // TODO: coming soon
+    // implementation 'io.getmage.android:sdk:0.0.6'
 }
 
 def configureReactNativePom(def pom) {
