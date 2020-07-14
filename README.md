@@ -5,7 +5,7 @@
 Distributing products globally should not be a one price fits all strategy. Get started with Mage to scale your products worldwide!
 
 ## Requirements
-Please note that our SDK currently just works on iOS 11 and up. Android is not yet supported.
+Please note that our SDK currently just works on iOS 11 and up.
 
 ## Getting started
 
