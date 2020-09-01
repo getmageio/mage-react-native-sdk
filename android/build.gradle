@@ -66,6 +66,7 @@ repositories {
         // Android JSC is installed from npm
         url "$rootDir/../node_modules/jsc-android/dist"
     }
+    maven { url 'https://jitpack.io' }
     google()
     jcenter()
 }
@@ -73,8 +74,7 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
-    // TODO: coming soon
-    // implementation 'io.getmage.android:sdk:0.0.6'
+    implementation 'com.github.getmageio:mage-android-sdk:1.0'
 }
 
 def configureReactNativePom(def pom) {

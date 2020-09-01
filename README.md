@@ -4,6 +4,8 @@
 
 Distributing products globally should not be a one price fits all strategy. Get started with Mage to scale your products worldwide!
 
+Before implementing the SDK please *read and complete* the [integration guide](https://www.getmage.io/documentation) on our website.
+
 ## Requirements
 Please note that our SDK currently just works on iOS 11 and up.
 

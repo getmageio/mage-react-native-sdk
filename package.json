@@ -1,7 +1,7 @@
 {
   "name": "@getmageio/react-native-mage",
   "title": "React Native Mage",
-  "version": "0.0.7",
+  "version": "1.0",
   "description": "getmage.io provides smart pricing for your in-app purchases. Distributing products globally should not be a one price fits all strategy. Get started with Mage to scale your products worldwide!",
   "main": "index.js",
   "publishConfig": {
@@ -18,7 +18,9 @@
   "keywords": [
     "react-native",
     "pricing",
-    "in app purchases"
+    "in app purchases",
+    "revenue optimization",
+    "price testing"
   ],
   "author": {
     "name": "Patrick Bläsing",

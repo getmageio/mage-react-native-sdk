@@ -5,8 +5,7 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
 import com.facebook.react.bridge.ReadableMap;
-// TODO: coming soon
-// import io.getmage.android.Mage;
+import io.getmage.android.Mage;
 
 public class MageModule extends ReactContextBaseJavaModule {
 
