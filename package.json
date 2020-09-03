@@ -1,7 +1,7 @@
 {
   "name": "@getmageio/react-native-mage",
   "title": "React Native Mage",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "getmage.io provides smart pricing for your in-app purchases. Distributing products globally should not be a one price fits all strategy. Get started with Mage to scale your products worldwide!",
   "main": "index.js",
   "publishConfig": {
@@ -23,8 +23,8 @@
     "price testing"
   ],
   "author": {
-    "name": "Patrick Bläsing",
-    "email": "patrick@getmage.io"
+    "name": "Mage Labs GmbH",
+    "email": "team@getmage.io"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
