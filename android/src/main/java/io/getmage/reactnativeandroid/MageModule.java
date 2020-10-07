@@ -30,6 +30,12 @@ public class MageModule extends ReactContextBaseJavaModule {
             e.printStackTrace();
         }
     }
+
+    @ReactMethod
+    public void setUserIdentifier(String userId) {
+        Mage.setUserIdentifier(userId);
+    }
+
     @ReactMethod
     public void userPurchased(String inAppId) {
         Mage.userPurchased(inAppId);

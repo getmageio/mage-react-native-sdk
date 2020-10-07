@@ -20,6 +20,10 @@ RCT_EXPORT_METHOD(setOptions: (NSDictionary*)options){
     [[Mage sharedInstance] setOptions:options];
 }
 
+RCT_EXPORT_METHOD(setUserIdentifier: (NSString*)userId){
+    [[Mage sharedInstance] setUserIdentifier:userId];
+}
+
 RCT_EXPORT_METHOD(getIdFromProductName: (NSString*)productName withFallback:(NSString*)fallbackID withCallback: (RCTResponseSenderBlock)callback){
     NSString *productId = [[Mage sharedInstance] getIdFromProductName:productName withFallback:fallbackID];
     callback(@[productId]);

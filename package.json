@@ -1,8 +1,8 @@
 {
   "name": "@getmageio/react-native-mage",
   "title": "React Native Mage",
-  "version": "1.0.4",
-  "description": "getmage.io provides smart pricing for your in-app purchases. Distributing products globally should not be a one price fits all strategy. Get started with Mage to scale your products worldwide!",
+  "version": "1.1.0",
+  "description": "Automatically and simultaneously test and optimize in-app purchase prices in 170+ app store countries. You do not need to hire data scientists to take your pricing to the next level. Just use the Mage SDK. Sign up for free!",
   "main": "index.js",
   "publishConfig": {
     "access": "public"

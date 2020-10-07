@@ -42,7 +42,7 @@ Mage.setOptions({
 
 ### 3) Get your in app purchase IDs
 
-Wherever you show in app purchases call `getIdFromProductName` to get the correct in app purchase ID. This could be, for example, somewhere in your ViewController for your store view / popup.
+Wherever you show in app purchases, call `getIdFromProductName` to get the correct in app purchase ID. This could be, for example, somewhere in your ViewController for your store view / popup.
 
 ```javascript
 Mage.getIdFromProductName("myProduct", "com.myapp.myFallBackID", (inAppPurchaseId) => {
@@ -52,7 +52,7 @@ Mage.getIdFromProductName("myProduct", "com.myapp.myFallBackID", (inAppPurchaseI
 
 ### 4) Know what you sold
 
-In some cases you might want to know what the user bought so you can send it to a CRM,
+In some cases, you might want to know what the user bought so you can send it to a CRM,
 your own backend or for some custom logic inside your app. `getProductNameFromId` will help you out!
 
 ```javascript
@@ -63,7 +63,16 @@ Mage.getProductNameFromId("com.myapp.someIapID", (err, productName) => {
 })
 ```
 
-### 5) Report purchases (Android only)
+### 5) Identify the user for our Subscription Lifetime Value Tracking (optional)
+Subscription status tracking is usually done on your backend or by some third party service. Apple or Google sends real-time subscription status updates that you interpret and take action on. This is why we provide a simple Web API to enable subscription lifetime value tracking for Mage. Apple or Google contacts your backend, your backend contacts Mage.
+
+This way, we can adequately track the durations of your subscriptions and identify free trial and introductory price offer conversion rates. To make this feature work, you need to implement the `setUserIdentifier` method so that we can identify the calls from your backend. [Learn more about our Subscription Lifetime Value Tracking Feature](link...).
+
+```javascript
+Mage.setUserIdentifier("myUserIdentifier")
+```
+
+### 6) Report purchases (Android only)
 
 On iOS there is no need to report a purchase since that is handled automatically. However auto-purchase tracking is not yet implemented in our Android Java SDK.
 Whenever a user makes a purchase you need to report it.
